@@ -1,0 +1,134 @@
+/*
+filename: [lab4.css]
+author: [Tanvir Rahman Tonoy]
+created: [27.03.2025 || 10:59am]
+last modified: [27.03.2025 on campus 11:21 am]
+description: [lab04.html]
+*/
+* { 
+    font-family: calibri, sans-serif; 
+    color: #2F4F4F;
+} 
+
+h1{
+    color: purple;
+    font-size: 2em; 
+    font-weight: bold;
+    background-color: lightgray;
+    padding: 2rem;
+    margin: 1rem 2rem 1rem 2rem;
+}
+h2{
+    color : rgb(0,128,128);
+    font-size: 1.5em;
+}
+aside, footer { font-style: italic; }   
+h1, h2, h3{
+    font-family: arial,sans-serif;
+}
+table,td,th{
+    border: 1px solid black;
+}
+#images {
+         text-align : center;  /* careful: center has US spelling */
+}
+
+
+#heading{
+    color:red;
+}
+.special {
+    color: darkorange;
+    font-weight:bold;
+   } 
+.table-headings-month{
+    text-align: right;
+}
+nav a {
+    text-decoration: none;
+    padding:0.2em 0.6em;
+    border: 4px solid #ccc;
+   }      
+
+ol ul{
+    list-style-type: square;
+}
+aside:hover {
+    display: none;
+}
+nav {
+    display: flex;
+
+}
+nav p{
+    margin-left: 5px;
+}
+nav a:hover{
+    background-color: lightblue;
+    border-color: darkblue;
+}
+/* DONE for now [27.03.2025 */
+
+/*  The upper section is from the week 04 css file */
+
+
+
+
+.headings_and_paragraphs{
+    display: flex;
+    flex-direction: row-reverse;
+}
+aside{
+    display: block;
+    
+    border-top: 5px solid purple;
+    border-left: 5px solid purple;
+    border-bottom:  5px solid rgb(145, 105, 145);
+    border-right:  5px solid rgb(145, 105, 145);
+    border-radius: 10px;
+    padding: 10px;
+   margin: 2rem;
+   background-color: white;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+.table_and_list{
+    display: flex;
+    flex-direction: row;
+    /* margin: 5rem; */
+}
+.table_and_list section{
+    padding: 2rem;
+}
+.table_and_list h2,h3,p{
+    text-align: center;
+}
+
+.hypterlinks_and_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hyperlinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hypterlinks_and_image #images{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    ;
+}
+.image_border{
+    border: 2px solid black;
+}
+
+footer{
+    margin-top: 1rem;
+    border-top: 5px double black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
