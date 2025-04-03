@@ -115,13 +115,20 @@ aside{
     align-items: center;
     justify-content: center;
 }
+.hypterlinks_and_image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
 .hypterlinks_and_image #images{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 15rem;
     ;
 }
 .image_border{
+    /* width: 15rem; */
     border: 2px solid black;
 }
 
